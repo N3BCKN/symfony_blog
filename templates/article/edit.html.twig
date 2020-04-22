@@ -1,0 +1,11 @@
+{% extends('base.html.twig') %}
+
+{% block title %} Edit Article {% endblock %}
+
+
+{% block body %}
+    <h3 class="text-center">Edit Article</h3>
+    {{ form_start(form) }}
+    {{ form_widget(form)}}
+    {{ form_end(form) }}
+{% endblock %}
